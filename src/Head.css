@@ -1,0 +1,26 @@
+.headpart{
+    display: inline-flex;
+}
+.headlink{
+    margin-left: 1000px;
+}
+.headlink a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.immersive{
+    width: 400px;
+    height: 200px; 
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    margin-top: 60px;
+    margin-left: 80px;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10px;
+    font-stretch: wider;
+}
+

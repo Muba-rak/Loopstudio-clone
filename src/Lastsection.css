@@ -1,0 +1,16 @@
+.midsection{
+    display: flex;
+    margin-top: 30px;
+}
+.midsection button{
+    margin-left: 1000px;
+    width: 150px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-style: solid;
+
+}
+.midsection h2{
+    margin-left: 85px;
+}

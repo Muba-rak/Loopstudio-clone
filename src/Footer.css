@@ -1,0 +1,28 @@
+.footer{
+   display: flex;
+}
+.footer_left h3{
+    color: white;
+
+}
+.footer_left a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.footer_left{
+    margin-left: 50px;
+}
+.footer_right{
+    margin-left: 900px;
+    padding: 20px;
+    width: 200px;
+}
+.footer_right i{
+    color: white;
+    padding-right: 10px;
+}
+.footer_right address{
+    color: white;
+    font-size: smaller;
+}
