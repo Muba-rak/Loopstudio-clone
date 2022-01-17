@@ -18,11 +18,7 @@ const Footer = () => {
            <i class="fab fa-pinterest-square"></i>
            <i class="fab fa-instagram"></i>
            <address>© 2021 loopstudios. All rights reserved</address>
-           </div>
-           
-
-
-            
+           </div>           
         </div>
     )
 }

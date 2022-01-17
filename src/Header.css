@@ -1,5 +1,17 @@
-.header{
-   background-image: url('./images/headerimg.jpeg');
-   background-size: cover;
-   height: 35rem;
+@media (min-width: 320px){
+   .header{
+      background-image: url('./images/headerimg.jpeg');
+      background-size: cover;
+      height: 25rem;
+   }
+}
+@media (min-width: 375px){}
+@media (min-width: 425px){}
+@media (min-width: 768px){}
+@media (min-width: 1024px){
+   .header{
+      background-image: url('./images/headerimg.jpeg');
+      background-size: cover;
+      height: 35rem;
+   }
 }

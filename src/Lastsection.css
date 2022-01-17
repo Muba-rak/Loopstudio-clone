@@ -1,16 +1,35 @@
-.midsection{
-    display: flex;
-    margin-top: 30px;
-}
-.midsection button{
-    margin-left: 1000px;
-    width: 150px;
-    height: 40px;
-    color: black;
-    background-color: white;
-    border-style: solid;
+@media (min-width: 320px){
+    .midsection{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
 
+    }
+    .midsection button{
+        margin-left: 30px;
+        width: 150px;
+        height: 40px;
+        color: black;
+        background-color: white;
+        border-style: solid;
+    }
+    .midsection h2{
+        margin-left: 30px;
+    }
 }
-.midsection h2{
-    margin-left: 85px;
+@media (min-width: 375px){}
+@media (min-width: 425px){}
+@media (min-width: 768px){}
+@media (min-width: 1024px){
+    .midsection{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .midsection button{
+        margin-left: 1000px;
+    }
+    .midsection h2{
+        margin-left: 85px;
+    }
 }

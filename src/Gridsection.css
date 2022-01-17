@@ -1,7 +1,26 @@
-.gridsection{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 5px;
-    width: 70%;
-    margin: auto;
+@media (min-width: 320px){
+    .gridsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        margin: auto;
+    }
+}
+@media (min-width: 375px){}
+@media (min-width: 425px){}
+@media (min-width: 768px){}
+@media (min-width: 1024px){
+    .gridsection{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 5px;
+        width: 70%;
+        margin: auto;
+    }
+    .one{
+        margin: 0;
+    }
+
+
 }

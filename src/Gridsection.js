@@ -15,13 +15,13 @@ const Gridsection = () => {
         <div>
             <div className='gridsection'>
                 <div class="one"><img src={img1} alt='' /></div>
-                <div class="two"><img src={img2} alt='' /></div>
-                <div class="three"><img src={img3} alt='' /></div>
-                <div class="four"><img src={img4} alt='' /></div>
-                <div class="five"><img src={img5} alt='' /></div>
-                <div class="six"><img src={img6} alt='' /></div>
-                <div class="six"><img src={img7} alt='' /></div>
-                <div class="six"><img src={img8} alt='' /></div>
+                <div class="one"><img src={img2} alt='' /></div>
+                <div class="one"><img src={img3} alt='' /></div>
+                <div class="one"><img src={img4} alt='' /></div>
+                <div class="one"><img src={img5} alt='' /></div>
+                <div class="one"><img src={img6} alt='' /></div>
+                <div class="one"><img src={img7} alt='' /></div>
+                <div class="one"><img src={img8} alt='' /></div>
             </div>
 
 
